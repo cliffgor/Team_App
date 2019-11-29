@@ -1,0 +1,25 @@
+@import '../GifUpload/GifUpload.css';
+
+.profile-container {
+    margin: 2em auto;
+    text-align: center;
+    width: 70%;
+}
+
+.profile {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info {
+    border-bottom: 2px solid green;
+    font-size: 2em;
+    padding-bottom: 10px;
+    font-weight: lighter;
+    margin: 0 0 2.5em;
+}
+
+.address {
+    text-align: center;
+}

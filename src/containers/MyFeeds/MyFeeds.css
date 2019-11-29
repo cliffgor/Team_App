@@ -1,0 +1,37 @@
+@import '../Timeline/Timeline.css';
+
+.options {
+    width: 15em;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.option {
+    text-align: center;
+    margin: 20px;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 5px 10px ;
+}
+
+.update { 
+    background-color: #9af4d4;
+    color: #3a4946;
+    border: 1px solid #2cc7a5;
+}
+
+.delete {
+    background-color: #dc7e67;
+    color: #3a4946;
+    border: 1px solid #2cc7a5;
+}
+
+@media (max-width: 720px) {
+    .options {
+        width: 100%;
+    }
+    
+}

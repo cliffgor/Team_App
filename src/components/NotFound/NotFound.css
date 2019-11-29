@@ -1,0 +1,11 @@
+.error-page {
+    background: url("../../assets/images/404.jpg") no-repeat center center fixed;
+    height: 100vh;
+}
+
+.back-link {
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 35em;
+}
